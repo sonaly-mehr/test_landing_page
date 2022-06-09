@@ -1,0 +1,28 @@
+.year_validation{
+    width: 250px;
+    margin: 0 auto;
+      margin-top: 0px;
+    margin-top: 60px;
+}
+.year_validation h4{
+    margin-bottom: 6px;
+}
+.year_validation input{
+    width: 93%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #c5c5c5;
+    box-shadow: 0px -5px 10px -1px #e8e8e8;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.year_validation input[type=submit]{
+    background: #0696E3;
+    color: #fff;
+    width: 60%;
+    height: 43px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}

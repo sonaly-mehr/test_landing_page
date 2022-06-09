@@ -11,7 +11,7 @@
     <div class="year_validation">
         <h4>Year*</h4>
         <form action="" name="myform" onsubmit="return validation()">
-            <input type="number" name="num" placeholder="input year" max="4"> <br>
+            <input type="text" name="num" placeholder="input year" maxlength="4" onkeyup="this.value=this.value.replace(/[^\d]/,'')"> <br>
             <input type="submit" value="Submit">
         </form>
     </div>
@@ -24,10 +24,6 @@
                 alert("Number field cannot be empty!")
                 return false;
             }
-            // if(numb.value.length>4){
-            //     alert('Year should be limited to 4 character!')
-            //     return false
-            // }
             else{
                 alert('Thank You! Your Form has been submitted successfully')
                 return true;
